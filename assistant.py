@@ -275,8 +275,6 @@ def chat_response(command):
         speak("I am your assistant. My name is Rora.")
     elif "my name" in command:
         speak("Yes boss, your name is Krishna.")
-    elif "loyal" in command:
-        speak("I am loyal to you, Krishna.")
     elif "purpose" in command:
         speak("I am your virtual assistant designed to help you with tasks and calculations.")
         print("I am your virtual assistant designed to help you with tasks and calculations.")
@@ -333,3 +331,4 @@ def main():
 # RUN
 if __name__ == "__main__":
     main()
+
